@@ -101,6 +101,19 @@
      </property>
     </widget>
    </widget>
+   <widget class="QGroupBox" name="gb">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>200</y>
+      <width>181</width>
+      <height>331</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string>Informações</string>
+    </property>
+   </widget>
   </widget>
   <widget class="QMenuBar" name="menuBar">
    <property name="geometry">

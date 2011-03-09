@@ -11,8 +11,11 @@ TEMPLATE = app
 
 
 SOURCES += main.cpp\
-        mainwindow.cpp
+        mainwindow.cpp \
+    ../Kinematics/genhexkins.c
 
-HEADERS  += mainwindow.h
+HEADERS  += mainwindow.h \
+    genhexkins.h \
+    ../Kinematics/genhexkins.h
 
 FORMS    += mainwindow.ui

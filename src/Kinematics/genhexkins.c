@@ -1,3 +1,4 @@
+#ifdef COMPILE
 /********************************************************************
 * Description: genhexkins.c
 *   Kinematics for a generalised hexapod machine
@@ -909,4 +910,5 @@ int rtapi_app_main(void) {
 }
 
 void rtapi_app_exit(void) { hal_exit(comp_id); }
+#endif
 #endif
